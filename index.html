@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Field Notes — Lista de Tarefas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="notebook">
+    <header class="notebook__header">
+      <h1>Field Notes</h1>
+      <p class="notebook__subtitle">suas tarefas, no seu ritmo</p>
+    </header>
+
+    <form id="task-form" class="task-form">
+      <input type="text" id="task-input" placeholder="O que precisa ser feito?" autocomplete="off" required>
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">Todas</button>
+      <button class="filter-btn" data-filter="active">Pendentes</button>
+      <button class="filter-btn" data-filter="completed">Concluídas</button>
+    </div>
+
+    <ul id="task-list" class="task-list"></ul>
+
+    <footer class="notebook__footer">
+      <span id="task-count">0 tarefas pendentes</span>
+      <button id="clear-completed">Limpar concluídas</button>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
