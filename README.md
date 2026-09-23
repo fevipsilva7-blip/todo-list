@@ -1,8 +1,8 @@
-# 📓 Field Notes — Lista de Tarefas
+#  Field Notes — Lista de Tarefas
 
 Uma lista de tarefas simples e direta, com visual de caderno de campo. Guarda tudo no navegador, então suas tarefas continuam lá mesmo se você fechar a página.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 - Adicionar, concluir e excluir tarefas
 - Filtrar por: todas, pendentes ou concluídas
@@ -10,7 +10,7 @@ Uma lista de tarefas simples e direta, com visual de caderno de campo. Guarda tu
 - Botão para limpar tarefas concluídas de uma vez
 - Dados salvos automaticamente no `localStorage` do navegador
 
-## 🚀 Como rodar
+##  Como rodar
 
 Não precisa instalar nada:
 
@@ -24,13 +24,13 @@ Ou, para deixar online com **GitHub Pages**:
 3. Em "Source", selecione a branch `main`
 4. Em alguns minutos o link estará disponível
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 - HTML5
 - CSS3 (sem frameworks)
 - JavaScript puro (Vanilla JS)
 
-## 📂 Estrutura
+##  Estrutura
 
 ```
 todo-list/
@@ -40,7 +40,7 @@ todo-list/
 └── README.md
 ```
 
-## 💡 Ideias para evoluir
+##  Ideias para evoluir
 
 - Adicionar categorias ou prioridades às tarefas
 - Permitir editar uma tarefa já criada
